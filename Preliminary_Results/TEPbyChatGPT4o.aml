@@ -1,0 +1,886 @@
+﻿<CAEXFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dke.de/CAEX" SchemaVersion="3.0" FileName="AML_ExampleWithLibraries.aml" xsi:schemaLocation="http://www.dke.de/CAEX CAEX_ClassModel_V.3.0.xsd">
+  <AdditionalInformation AutomationMLVersion="2.0" />
+  <SuperiorStandardVersion>AutomationML 2.10</SuperiorStandardVersion>
+  <SourceDocumentInformation OriginName="AutomationML Editor" OriginID="916578CA-FE0D-474E-A4FC-9E1719892369" OriginVersion="5.5.6.0" LastWritingDateTime="2024-05-16T12:10:14.8864105+02:00" OriginVendor="AutomationML e.V." OriginVendorURL="www.AutomationML.org" OriginRelease="5.5.6.0" OriginProjectTitle="unspecified" OriginProjectID="unspecified" />
+  
+   <InstanceHierarchy Name="TEP_Hierarchy">
+    <InternalElement Name="TEP_System" ID="ca3089b8-53f8-49d1-ab4e-924f710dd907">
+      <Attribute Name="Description" AttributeDataType="xs:string">Tennessee Eastman Process</Attribute>
+      <InternalElement Name="Process_Variables" ID="d07e1ac3-ee51-49f5-a004-952f815cbd09">
+        <InternalElement Name="XMEAS_1" ID="c92787a9-fa8d-44aa-9c7b-5880ebb0b134">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 1</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 1.2, LO: 0.8</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">1.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_2" ID="e059cc6c-a78b-400a-91e6-7c017957579b">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 2</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 2.5, LO: 1.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">2.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_3" ID="7811d470-67c7-4e6e-8f3c-402592d941e6">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 3</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 3.0, LO: 2.0</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">2.5</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_4" ID="8976db30-dcf3-4a45-b7db-952e65d6e56e">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 4</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 4.5, LO: 3.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">4.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_5" ID="aae61934-8b67-4d71-96f9-4ddf28be2460">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 5</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 5.5, LO: 4.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">5.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_6" ID="4086e8ba-7582-4485-9354-65c6db584df6">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 6</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 6.5, LO: 5.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">6.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_7" ID="2c693a77-0a9c-4571-bc6d-cdc694e09818">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 7</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 7.5, LO: 6.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">7.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_8" ID="3b23d83b-e874-4650-945a-02faa3cfce26">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 8</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 8.5, LO: 7.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">8.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_9" ID="9aa66c02-58c6-4a0d-8c0b-54d947f07d09">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 9</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 9.5, LO: 8.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">9.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_10" ID="4647b2e5-5230-42bc-ac7e-da93f7e8d5a2">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 10</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 10.5, LO: 9.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">10.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_11" ID="40cf35da-3458-4499-b150-7a3a10582a4d">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 11</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 11.5, LO: 10.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">11.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_12" ID="9f5c548b-a235-4061-9001-61c0c5d38aef">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 12</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 12.5, LO: 11.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">12.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_13" ID="4bbd115a-7787-487d-ac7a-17f27b5e0e90">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 13</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 13.5, LO: 12.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">13.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_14" ID="1afccafe-9ad4-4fbf-ad0e-649d809e0a23">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 14</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 14.5, LO: 13.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">14.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_15" ID="d586eb0c-ecc7-4c08-8e20-16c66ce53b12">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 15</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 15.5, LO: 14.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">15.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_16" ID="51aacd73-0c56-4c03-aa3a-b0b9b2cd54e8">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 16</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 16.5, LO: 15.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">16.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_17" ID="cda52071-1b61-4823-88d1-c94cff27c3a4">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 17</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 17.5, LO: 16.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">17.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_18" ID="327676e0-06f1-4c8c-9d31-d5caa9a41b87">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 18</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 18.5, LO: 17.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">18.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_19" ID="b856a293-1e2a-4b69-8cb4-d87b3c4a5f8d">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 19</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 19.5, LO: 18.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">19.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_20" ID="c71eb7f2-2d5e-4f61-b5a7-7a0b85e8f9bd">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 20</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 20.5, LO: 19.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">20.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_21" ID="4e5cba11-4978-4e7e-8538-2f12a2db6f2f">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 21</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 21.5, LO: 20.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">21.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_22" ID="1b67a0cf-bc8f-4417-8a91-77b219cccb12">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 22</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 22.5, LO: 21.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">22.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_23" ID="bf9c74db-68e5-4c1c-b4a6-d52b34841c11">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 23</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 23.5, LO: 22.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">23.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_24" ID="8a30675c-9cc5-4a91-8a9e-d81c2c6f5e12">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 24</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 24.5, LO: 23.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">24.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_25" ID="d60a84b7-3a92-45a3-b8b2-b2a88d8e3c10">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 25</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 25.5, LO: 24.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">25.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_26" ID="cc85d70a-4f15-4f68-8e14-5971c22b1e13">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 26</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 26.5, LO: 25.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">26.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_27" ID="88e4b634-20ee-4621-8180-1312a3e1c914">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 27</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 27.5, LO: 26.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">27.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_28" ID="a4db08f3-18f1-420e-aeba-5eb4d2a2f915">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 28</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 28.5, LO: 27.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">28.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_29" ID="b79c0d64-4b62-469e-baf2-3db2c1d1e116">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 29</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 29.5, LO: 28.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">29.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_30" ID="c0a27e92-bd1d-49a7-812f-80a2c16bda17">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 30</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 30.5, LO: 29.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">30.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_31" ID="c7e25b3b-6487-46a2-8f29-2e3d73e1ea18">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 31</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 31.5, LO: 30.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">31.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_32" ID="d42e4b7a-8f32-41c3-9a25-8137f2d1f119">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 32</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 32.5, LO: 31.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">32.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_33" ID="e96c5a83-98a4-4033-9a27-8f45c3e2a12a">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 33</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 33.5, LO: 32.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">33.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_34" ID="f7b4c674-b9f3-48a6-92b7-8a57f1e3a13b">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 34</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 34.5, LO: 33.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">34.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_35" ID="c6e7d582-89a3-4f5b-b8a2-3f78d4e5a14c">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 35</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 35.5, LO: 34.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">35.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_36" ID="d9f4b691-78e2-4a2c-b8a4-2d57b3e6a15d">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 36</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 36.5, LO: 35.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">36.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_37" ID="e8d4b731-78f2-4b3c-8f16-7a45c4e2b16e">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 37</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 37.5, LO: 36.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">37.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_38" ID="f5d3a672-89f2-4c3b-8a27-2a34b6e3a17f">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 38</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 38.5, LO: 37.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">38.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_39" ID="d7f2a6b1-68e2-4b7c-8f24-3a46c7e2b18g">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 39</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 39.5, LO: 38.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">39.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_40" ID="e2c3b7a4-79f2-4c6b-8a36-1b25c5e3a19h">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 40</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 40.5, LO: 39.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">40.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_41" ID="f1b3a5c2-78f2-4a3c-8d27-7a23b4e2a20i">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 41</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 41.5, LO: 40.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">41.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_42" ID="c2d3a6b4-78f2-4c6c-8a26-5a35c4e3a21j">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 42</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 42.5, LO: 41.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">42.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_43" ID="b6e3a7c1-78d2-4b6c-8a17-4b27c5e2a22k">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 43</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 43.5, LO: 42.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">43.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_44" ID="c5f3b6d4-79f2-4b7c-8a27-6a35c4e2a23l">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 44</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 44.5, LO: 43.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">44.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_45" ID="d1c2a7b4-68e2-4c6c-8a36-3b35c5e2a24m">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 45</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 45.5, LO: 44.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">45.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_46" ID="e2c3a7b4-79d2-4b6c-8a27-4a25c5e3a25n">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 46</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 46.5, LO: 45.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">46.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_47" ID="b4e3a6c2-78d2-4b6c-8a27-3a25c5e2a26o">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 47</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 47.5, LO: 46.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">47.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_48" ID="c1f2a6b4-79f2-4b6c-8a26-6a34c5e2a27p">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 48</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 48.5, LO: 47.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">48.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_49" ID="d6e3a7b4-79d2-4b7c-8a36-3b25c5e3a28q">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 49</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 49.5, LO: 48.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">49.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_50" ID="b5e2a7c1-68f2-4c6c-8a26-4a27c5e2a29r">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 50</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 50.5, LO: 49.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">50.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_51" ID="c3d4a7b1-78d2-4c6c-8a17-3a25c5e3a30s">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 51</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 51.5, LO: 50.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">51.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_52" ID="d4e3a7b2-79f2-4c6c-8a27-2a35c5e2a31t">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 52</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 52.5, LO: 51.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">52.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_53" ID="b5f2a7c2-68e2-4b6c-8a26-4a24c5e2a32u">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 53</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 53.5, LO: 52.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">53.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_54" ID="c4d3a7b4-78d2-4c6c-8a27-3a24c5e2a33v">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 54</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 54.5, LO: 53.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">54.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_55" ID="d3e2a7c1-79d2-4b6c-8a27-2a34c5e2a34w">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 55</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 55.5, LO: 54.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">55.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_56" ID="c5e3a7b4-78f2-4c6c-8a27-3a25c5e2a35x">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 56</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 56.5, LO: 55.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">56.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_57" ID="b4e2a7c4-68e2-4b6c-8a26-3a25c5e2a36y">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 57</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 57.5, LO: 56.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">57.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_58" ID="d5e3a7b4-79d2-4c6c-8a27-3a35c5e2a37z">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 58</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 58.5, LO: 57.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">58.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_59" ID="b6d2a7c1-68f2-4b6c-8a26-2a25c5e2a38aa">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 59</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 59.5, LO: 58.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">59.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_60" ID="c4e2a7b2-78d2-4b6c-8a27-2a34c5e2a39bb">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 60</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 60.5, LO: 59.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">60.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_61" ID="b3d2a7c1-79d2-4c6c-8a17-3a25c5e2a40cc">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 61</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 61.5, LO: 60.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">61.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_62" ID="d2e3a7b4-79d2-4c6c-8a27-2a35c5e2a41dd">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 62</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 62.5, LO: 61.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">62.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_63" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a42ee">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 63</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 63.5, LO: 62.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">63.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_64" ID="c3d2a7b4-78d2-4c6c-8a27-2a34c5e2a43ff">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 64</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 64.5, LO: 63.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">64.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_65" ID="b2e2a7b4-68d2-4b6c-8a27-3a34c5e2a44gg">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 65</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 65.5, LO: 64.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">65.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_66" ID="d3e2a7b4-79d2-4c6c-8a27-2a35c5e2a45hh">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 66</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 66.5, LO: 65.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">66.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_67" ID="b5e2a7b4-68d2-4b6c-8a27-3a35c5e2a46ii">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 67</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 67.5, LO: 66.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">67.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_68" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a47jj">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 68</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 68.5, LO: 67.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">68.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_69" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a48kk">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 69</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 69.5, LO: 68.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">69.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_70" ID="d3e2a7b4-79d2-4c6c-8a27-2a35c5e2a49ll">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 70</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 70.5, LO: 69.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">70.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_71" ID="b5e2a7b4-68d2-4b6c-8a27-3a35c5e2a50mm">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 71</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 71.5, LO: 70.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">71.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_72" ID="c3d2a7b4-78d2-4c6c-8a27-3a35c5e2a51nn">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 72</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 72.5, LO: 71.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">72.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMEAS_73" ID="b5e2a7b4-68d2-4b6c-8a27-3a35c5e2a52oo">
+          <Attribute Name="Description" AttributeDataType="xs:string">Process Variable XMEAS 73</Attribute>
+          <Attribute Name="Alarm_Thresholds" AttributeDataType="xs:string">HI: 73.5, LO: 72.5</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">73.0</Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="Manipulated_Variables" ID="d3e2a7b4-79d2-4c6c-8a27-2a35c5e2a53pp">
+        <InternalElement Name="XMV_1" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a54qq">
+          <Attribute Name="Description" AttributeDataType="xs:string">Manipulated Variable XMV 1</Attribute>
+          <Attribute Name="Control_Limits" AttributeDataType="xs:string">Max: 1.0, Min: 0.0</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">0.5</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMV_2" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a55rr">
+          <Attribute Name="Description" AttributeDataType="xs:string">Manipulated Variable XMV 2</Attribute>
+          <Attribute Name="Control_Limits" AttributeDataType="xs:string">Max: 2.0, Min: 0.0</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">1.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMV_3" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a56ss">
+          <Attribute Name="Description" AttributeDataType="xs:string">Manipulated Variable XMV 3</Attribute>
+          <Attribute Name="Control_Limits" AttributeDataType="xs:string">Max: 3.0, Min: 0.0</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">1.5</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMV_4" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a57tt">
+          <Attribute Name="Description" AttributeDataType="xs:string">Manipulated Variable XMV 4</Attribute>
+          <Attribute Name="Control_Limits" AttributeDataType="xs:string">Max: 4.0, Min: 0.0</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">2.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMV_5" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a58uu">
+          <Attribute Name="Description" AttributeDataType="xs:string">Manipulated Variable XMV 5</Attribute>
+          <Attribute Name="Control_Limits" AttributeDataType="xs:string">Max: 5.0, Min: 0.0</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">2.5</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMV_6" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a59vv">
+          <Attribute Name="Description" AttributeDataType="xs:string">Manipulated Variable XMV 6</Attribute>
+          <Attribute Name="Control_Limits" AttributeDataType="xs:string">Max: 6.0, Min: 0.0</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">3.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMV_7" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a60ww">
+          <Attribute Name="Description" AttributeDataType="xs:string">Manipulated Variable XMV 7</Attribute>
+          <Attribute Name="Control_Limits" AttributeDataType="xs:string">Max: 7.0, Min: 0.0</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">3.5</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMV_8" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a61xx">
+          <Attribute Name="Description" AttributeDataType="xs:string">Manipulated Variable XMV 8</Attribute>
+          <Attribute Name="Control_Limits" AttributeDataType="xs:string">Max: 8.0, Min: 0.0</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">4.0</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMV_9" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a62yy">
+          <Attribute Name="Description" AttributeDataType="xs:string">Manipulated Variable XMV 9</Attribute>
+          <Attribute Name="Control_Limits" AttributeDataType="xs:string">Max: 9.0, Min: 0.0</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">4.5</Attribute>
+        </InternalElement>
+        <InternalElement Name="XMV_10" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a63zz">
+          <Attribute Name="Description" AttributeDataType="xs:string">Manipulated Variable XMV 10</Attribute>
+          <Attribute Name="Control_Limits" AttributeDataType="xs:string">Max: 10.0, Min: 0.0</Attribute>
+          <Attribute Name="SteadyState_Value" AttributeDataType="xs:string">5.0</Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="Root_Cause_Disturbances" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a64aaa">
+        <InternalElement Name="IDV_1" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a65bbb">
+          <Attribute Name="Description" AttributeDataType="xs:string">Root Cause Disturbance IDV 1</Attribute>
+          <Attribute Name="Impact" AttributeDataType="xs:string">Affects XMEAS 1 and XMV 1</Attribute>
+          <Attribute Name="Scaling" AttributeDataType="xs:string">100%</Attribute>
+        </InternalElement>
+        <InternalElement Name="IDV_2" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a66ccc">
+          <Attribute Name="Description" AttributeDataType="xs:string">Root Cause Disturbance IDV 2</Attribute>
+          <Attribute Name="Impact" AttributeDataType="xs:string">Affects XMEAS 2 and XMV 2</Attribute>
+          <Attribute Name="Scaling" AttributeDataType="xs:string">80%</Attribute>
+        </InternalElement>
+        <InternalElement Name="IDV_3" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a67ddd">
+          <Attribute Name="Description" AttributeDataType="xs:string">Root Cause Disturbance IDV 3</Attribute>
+          <Attribute Name="Impact" AttributeDataType="xs:string">Affects XMEAS 3 and XMV 3</Attribute>
+          <Attribute Name="Scaling" AttributeDataType="xs:string">90%</Attribute>
+        </InternalElement>
+        <InternalElement Name="IDV_4" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a68eee">
+          <Attribute Name="Description" AttributeDataType="xs:string">Root Cause Disturbance IDV 4</Attribute>
+          <Attribute Name="Impact" AttributeDataType="xs:string">Affects XMEAS 4 and XMV 4</Attribute>
+          <Attribute Name="Scaling" AttributeDataType="xs:string">70%</Attribute>
+        </InternalElement>
+        <InternalElement Name="IDV_5" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a69fff">
+          <Attribute Name="Description" AttributeDataType="xs:string">Root Cause Disturbance IDV 5</Attribute>
+          <Attribute Name="Impact" AttributeDataType="xs:string">Affects XMEAS 5 and XMV 5</Attribute>
+          <Attribute Name="Scaling" AttributeDataType="xs:string">75%</Attribute>
+        </InternalElement>
+        <InternalElement Name="IDV_6" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a70ggg">
+          <Attribute Name="Description" AttributeDataType="xs:string">Root Cause Disturbance IDV 6</Attribute>
+          <Attribute Name="Impact" AttributeDataType="xs:string">Affects XMEAS 6 and XMV 6</Attribute>
+          <Attribute Name="Scaling" AttributeDataType="xs:string">85%</Attribute>
+        </InternalElement>
+      </InternalElement>
+      <InternalElement Name="Control_Loops" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a71hhh">
+        <InternalElement Name="Loop_1" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a72iii">
+          <Attribute Name="Description" AttributeDataType="xs:string">Control Loop 1</Attribute>
+          <InternalLink RefPartnerSideA="c92787a9-fa8d-44aa-9c7b-5880ebb0b134" RefPartnerSideB="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a54qq"/>
+          <Attribute Name="Controller_Type" AttributeDataType="xs:string">PID</Attribute>
+        </InternalElement>
+        <InternalElement Name="Loop_2" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a73jjj">
+          <Attribute Name="Description" AttributeDataType="xs:string">Control Loop 2</Attribute>
+          <InternalLink RefPartnerSideA="e059cc6c-a78b-400a-91e6-7c017957579b" RefPartnerSideB="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a55rr"/>
+          <Attribute Name="Controller_Type" AttributeDataType="xs:string">PID</Attribute>
+        </InternalElement>
+        <InternalElement Name="Loop_3" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a74kkk">
+          <Attribute Name="Description" AttributeDataType="xs:string">Control Loop 3</Attribute>
+          <InternalLink RefPartnerSideA="7811d470-67c7-4e6e-8f3c-402592d941e6" RefPartnerSideB="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a56ss"/>
+          <Attribute Name="Controller_Type" AttributeDataType="xs:string">PID</Attribute>
+        </InternalElement>
+        <InternalElement Name="Loop_4" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a75lll">
+          <Attribute Name="Description" AttributeDataType="xs:string">Control Loop 4</Attribute>
+          <InternalLink RefPartnerSideA="8976db30-dcf3-4a45-b7db-952e65d6e56e" RefPartnerSideB="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a57tt"/>
+          <Attribute Name="Controller_Type" AttributeDataType="xs:string">PID</Attribute>
+        </InternalElement>
+        <InternalElement Name="Loop_5" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a76mmm">
+          <Attribute Name="Description" AttributeDataType="xs:string">Control Loop 5</Attribute>
+          <InternalLink RefPartnerSideA="aae61934-8b67-4d71-96f9-4ddf28be2460" RefPartnerSideB="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a58uu"/>
+          <Attribute Name="Controller_Type" AttributeDataType="xs:string">PID</Attribute>
+        </InternalElement>
+        <InternalElement Name="Loop_6" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a77nnn">
+          <Attribute Name="Description" AttributeDataType="xs:string">Control Loop 6</Attribute>
+          <InternalLink RefPartnerSideA="4086e8ba-7582-4485-9354-65c6db584df6" RefPartnerSideB="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a59vv"/>
+          <Attribute Name="Controller_Type" AttributeDataType="xs:string">PID</Attribute>
+        </InternalElement>
+        <InternalElement Name="Loop_7" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a78ooo">
+          <Attribute Name="Description" AttributeDataType="xs:string">Control Loop 7</Attribute>
+          <InternalLink RefPartnerSideA="2c693a77-0a9c-4571-bc6d-cdc694e09818" RefPartnerSideB="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a60ww"/>
+          <Attribute Name="Controller_Type" AttributeDataType="xs:string">PID</Attribute>
+        </InternalElement>
+        <InternalElement Name="Loop_8" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a79ppp">
+          <Attribute Name="Description" AttributeDataType="xs:string">Control Loop 8</Attribute>
+          <InternalLink RefPartnerSideA="3b23d83b-e874-4650-945a-02faa3cfce26" RefPartnerSideB="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a61xx"/>
+          <Attribute Name="Controller_Type" AttributeDataType="xs:string">PID</Attribute>
+        </InternalElement>
+        <InternalElement Name="Loop_9" ID="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a80qqq">
+          <Attribute Name="Description" AttributeDataType="xs:string">Control Loop 9</Attribute>
+          <InternalLink RefPartnerSideA="9aa66c02-58c6-4a0d-8c0b-54d947f07d09" RefPartnerSideB="c3d2a7b4-78d2-4c6c-8a27-3a34c5e2a62yy"/>
+          <Attribute Name="Controller_Type" AttributeDataType="xs:string">PID</Attribute>
+        </InternalElement>
+        <InternalElement Name="Loop_10" ID="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a81rrr">
+          <Attribute Name="Description" AttributeDataType="xs:string">Control Loop 10</Attribute>
+          <InternalLink RefPartnerSideA="4647b2e5-5230-42bc-ac7e-da93f7e8d5a2" RefPartnerSideB="b5e2a7b4-68d2-4b6c-8a27-3a34c5e2a63zz"/>
+          <Attribute Name="Controller_Type" AttributeDataType="xs:string">PID</Attribute>
+        </InternalElement>
+      </InternalElement>
+    </InternalElement>
+  </InstanceHierarchy>
+
+
+  <InterfaceClassLib Name="TE_InterfaceClassLibrary">
+    <Version>0</Version>
+    <InterfaceClass Name="Product">
+      <InterfaceClass Name="Product_IN" RefBaseClassPath="TE_InterfaceClassLibrary/Product">
+        <Attribute Name="Direction" AttributeDataType="xs:string">
+          <DefaultValue>In</DefaultValue>
+          <Value>In</Value>
+          <Constraint Name="AllowedValues">
+            <NominalScaledType>
+              <RequiredValue>In</RequiredValue>
+              <RequiredValue>Out</RequiredValue>
+              <RequiredValue>InOut</RequiredValue>
+            </NominalScaledType>
+          </Constraint>
+        </Attribute>
+      </InterfaceClass>
+      <InterfaceClass Name="Product_OUT" RefBaseClassPath="TE_InterfaceClassLibrary/Product">
+        <Attribute Name="Direction" AttributeDataType="xs:string">
+          <DefaultValue>Out</DefaultValue>
+          <Value>Out</Value>
+          <Constraint Name="AllowedValues">
+            <NominalScaledType>
+              <RequiredValue>In</RequiredValue>
+              <RequiredValue>Out</RequiredValue>
+              <RequiredValue>InOut</RequiredValue>
+            </NominalScaledType>
+          </Constraint>
+        </Attribute>
+      </InterfaceClass>
+      <InterfaceClass Name="Product_INOUT" RefBaseClassPath="TE_InterfaceClassLibrary/Product">
+        <Attribute Name="Direction" AttributeDataType="xs:string">
+          <DefaultValue>InOut</DefaultValue>
+          <Value>InOut</Value>
+          <Constraint Name="AllowedValues">
+            <NominalScaledType>
+              <RequiredValue>In</RequiredValue>
+              <RequiredValue>Out</RequiredValue>
+              <RequiredValue>InOut</RequiredValue>
+            </NominalScaledType>
+          </Constraint>
+        </Attribute>
+      </InterfaceClass>
+      <InterfaceClass Name="Product_ThermalContact_INOUT" RefBaseClassPath="TE_InterfaceClassLibrary/Product">
+        <Attribute Name="Direction" AttributeDataType="xs:string">
+          <DefaultValue>InOut</DefaultValue>
+          <Value>InOut</Value>
+          <Constraint Name="AllowedValues">
+            <NominalScaledType>
+              <RequiredValue>In</RequiredValue>
+              <RequiredValue>Out</RequiredValue>
+              <RequiredValue>InOut</RequiredValue>
+            </NominalScaledType>
+          </Constraint>
+        </Attribute>
+        <Attribute Name="Temperature" AttributeDataType="xs:double" RefAttributeType="AttributeTypeLib/ProductAttribute/Temperature" Unit="°C" />
+      </InterfaceClass>
+    </InterfaceClass>
+    <InterfaceClass Name="Signal">
+      <InterfaceClass Name="Digital_IN" RefBaseClassPath="TE_InterfaceClassLibrary/Signal" />
+      <InterfaceClass Name="Digital_OUT" RefBaseClassPath="TE_InterfaceClassLibrary/Signal" />
+      <InterfaceClass Name="Analog_IN" RefBaseClassPath="TE_InterfaceClassLibrary/Signal" />
+      <InterfaceClass Name="Analog_OUT" RefBaseClassPath="TE_InterfaceClassLibrary/Signal" />
+      <InterfaceClass Name="Signal" />
+    </InterfaceClass>
+  </InterfaceClassLib>
+  <RoleClassLib Name="AutomationMLBaseRoleClassLib">
+    <Description>Automation Markup Language base role class library</Description>
+    <Version>2.10.0</Version>
+    <RoleClass Name="AutomationMLBaseRole">
+      <RoleClass Name="Resource" RefBaseClassPath="AutomationMLBaseRole" />
+      <RoleClass Name="Product" RefBaseClassPath="AutomationMLBaseRole" />
+      <RoleClass Name="Structure" RefBaseClassPath="AutomationMLBaseRole">
+        <RoleClass Name="ProductStructure" RefBaseClassPath="Structure" />
+        <RoleClass Name="ProcessStructure" RefBaseClassPath="Structure" />
+        <RoleClass Name="ResourceStructure" RefBaseClassPath="Structure" />
+      </RoleClass>
+    </RoleClass>
+  </RoleClassLib>
+  <SystemUnitClassLib Name="TE_SystemUnitClassLibrary">
+    <Version>0</Version>
+    <SystemUnitClass Name="Tank" ID="d0fb4fc8-32c2-4206-9f57-d0c24d742107" RefBaseClassPath="TE_SystemUnitClassLibrary/Vessel">
+      <Attribute Name="Level" AttributeDataType="xs:double" Unit="%" RefAttributeType="AttributeTypeLib/SystemUnitAttribute/Level" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Separator" ID="008ced91-789d-4185-89af-856a65f97ff1">
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+      <SystemUnitClass Name="Gas_Phase" ID="1d0b1093-a7dd-45a7-b81e-48211ddf27da" RefBaseClassPath="TE_SystemUnitClassLibrary/Tank" />
+      <SystemUnitClass Name="Liquid_Phase" ID="d43ed872-972c-4afe-84d1-93e2f526a7a2" RefBaseClassPath="TE_SystemUnitClassLibrary/Tank" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Vessel" ID="8c0d1818-d0fe-425f-aca1-8fbe72e111aa">
+      <Attribute Name="Pressure" AttributeDataType="xs:double" Unit="kPa" RefAttributeType="AttributeTypeLib/ProductAttribute/Pressure" />
+      <Attribute Name="Temperature" AttributeDataType="xs:double" Unit="°C" RefAttributeType="AttributeTypeLib/ProductAttribute/Temperature">
+        <DefaultValue>3</DefaultValue>
+      </Attribute>
+      <ExternalInterface Name="Product_OUT" ID="1f607fcd-5fb0-4de2-8279-18ea3cdcb0ff" RefBaseClassPath="TE_InterfaceClassLibrary/Product/Product_OUT" />
+      <ExternalInterface Name="Product_IN" ID="de9b7e6e-f0dd-45e5-bd97-63275730d5bb" RefBaseClassPath="TE_InterfaceClassLibrary/Product/Product_IN">
+        <Attribute Name="Direction" AttributeDataType="xs:string">
+          <Constraint Name="AllowedValues">
+            <NominalScaledType>
+              <RequiredValue>In</RequiredValue>
+              <RequiredValue>Out</RequiredValue>
+              <RequiredValue>InOut</RequiredValue>
+            </NominalScaledType>
+          </Constraint>
+        </Attribute>
+      </ExternalInterface>
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Pipe" ID="1caad965-32e4-4c04-8bae-e28dda6b5be4" RefBaseClassPath="TE_SystemUnitClassLibrary/Vessel">
+      <Attribute Name="Flow" AttributeDataType="xs:float" RefAttributeType="AttributeTypeLib/SystemUnitAttribute/Flow" Unit="m^3/h" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Condenser" ID="269636f5-89b4-48ad-a3a0-e4b30eaabefd">
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+      <SystemUnitClass Name="Condenser_Product_Side" ID="70110953-af0c-4730-9cd0-c8ff180ab8fa" RefBaseClassPath="TE_SystemUnitClassLibrary/Pipe">
+        <ExternalInterface Name="Product_ThermalContact" ID="10e87caf-4963-4a95-822e-476fe65efcbd" RefBaseClassPath="TE_InterfaceClassLibrary/Product/Product_ThermalContact_INOUT">
+          <Attribute Name="Direction" AttributeDataType="xs:string">
+            <DefaultValue>InOut</DefaultValue>
+            <Value>InOut</Value>
+            <Constraint Name="AllowedValues">
+              <NominalScaledType>
+                <RequiredValue>In</RequiredValue>
+                <RequiredValue>Out</RequiredValue>
+                <RequiredValue>InOut</RequiredValue>
+              </NominalScaledType>
+            </Constraint>
+          </Attribute>
+          <Attribute Name="Temperature" AttributeDataType="xs:double" RefAttributeType="AttributeTypeLib/ProductAttribute/Temperature" Unit="°C" />
+        </ExternalInterface>
+      </SystemUnitClass>
+      <SystemUnitClass Name="Condenser_Water_Side" ID="2bef0974-7950-4f1c-9ce9-1288b91f9b4b" RefBaseClassPath="TE_SystemUnitClassLibrary/Pipe">
+        <ExternalInterface Name="Product_ThermalContact" ID="a9223545-8b3c-45f1-b9ff-9ea9d435b9e2" RefBaseClassPath="TE_InterfaceClassLibrary/Product/Product_ThermalContact_INOUT">
+          <Attribute Name="Direction" AttributeDataType="xs:string">
+            <DefaultValue>InOut</DefaultValue>
+            <Value>InOut</Value>
+            <Constraint Name="AllowedValues">
+              <NominalScaledType>
+                <RequiredValue>In</RequiredValue>
+                <RequiredValue>Out</RequiredValue>
+                <RequiredValue>InOut</RequiredValue>
+              </NominalScaledType>
+            </Constraint>
+          </Attribute>
+          <Attribute Name="Temperature" AttributeDataType="xs:double" RefAttributeType="AttributeTypeLib/ProductAttribute/Temperature" Unit="°C" />
+        </ExternalInterface>
+      </SystemUnitClass>
+    </SystemUnitClass>
+    <SystemUnitClass Name="Stripper" ID="4c7bc40a-f1e2-4250-8f30-882451f791ac" RefBaseClassPath="TE_SystemUnitClassLibrary/Tank">
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Reactor" ID="a32746ee-8a36-425f-b7e1-3769068fe15a">
+      <Attribute Name="Rotational_Speed" AttributeDataType="xs:double" RefAttributeType="AttributeTypeLib/SystemUnitAttribute/Rotational_Speed" Unit="rpm" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+      <SystemUnitClass Name="Reactor_Product_Tank" ID="a9b45e74-1ea3-4fc6-82cf-d6a353e81f31" RefBaseClassPath="TE_SystemUnitClassLibrary/Tank">
+        <ExternalInterface Name="Product_ThermalContact" ID="22aec921-b81d-46ac-92d1-8d08d3cb13b0" RefBaseClassPath="TE_InterfaceClassLibrary/Product/Product_ThermalContact_INOUT">
+          <Attribute Name="Direction" AttributeDataType="xs:string">
+            <DefaultValue>InOut</DefaultValue>
+            <Value>InOut</Value>
+            <Constraint Name="AllowedValues">
+              <NominalScaledType>
+                <RequiredValue>In</RequiredValue>
+                <RequiredValue>Out</RequiredValue>
+                <RequiredValue>InOut</RequiredValue>
+              </NominalScaledType>
+            </Constraint>
+          </Attribute>
+          <Attribute Name="Temperature" AttributeDataType="xs:double" RefAttributeType="AttributeTypeLib/ProductAttribute/Temperature" Unit="°C" />
+        </ExternalInterface>
+      </SystemUnitClass>
+      <SystemUnitClass Name="Reactor_Cooling_Pipes" ID="8dd230ea-a44b-4075-a66d-99c61e047fe0" RefBaseClassPath="TE_SystemUnitClassLibrary/Pipe">
+        <ExternalInterface Name="Product_ThermalContact" ID="d982dec4-2954-4a5f-a6d2-4b563e313e87" RefBaseClassPath="TE_InterfaceClassLibrary/Product/Product_ThermalContact_INOUT">
+          <Attribute Name="Direction" AttributeDataType="xs:string">
+            <DefaultValue>InOut</DefaultValue>
+            <Value>InOut</Value>
+            <Constraint Name="AllowedValues">
+              <NominalScaledType>
+                <RequiredValue>In</RequiredValue>
+                <RequiredValue>Out</RequiredValue>
+                <RequiredValue>InOut</RequiredValue>
+              </NominalScaledType>
+            </Constraint>
+          </Attribute>
+          <Attribute Name="Temperature" AttributeDataType="xs:double" RefAttributeType="AttributeTypeLib/ProductAttribute/Temperature" Unit="°C" />
+        </ExternalInterface>
+      </SystemUnitClass>
+    </SystemUnitClass>
+    <SystemUnitClass Name="Valve" ID="569228e5-fd9d-4273-91ec-600c7c13ff6a" RefBaseClassPath="TE_SystemUnitClassLibrary/Pipe">
+      <Attribute Name="State" AttributeDataType="xs:float" RefAttributeType="AttributeTypeLib/SystemUnitAttribute/State" Unit="%">
+        <Constraint Name="">
+          <OrdinalScaledType>
+            <RequiredMaxValue>100</RequiredMaxValue>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </Attribute>
+      <ExternalInterface Name="Digital_IN" ID="bf74ee42-7f85-4470-9990-899d8dd03936" RefBaseClassPath="TE_InterfaceClassLibrary/Signal/Digital_IN" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Product_Source" ID="3e999d25-70e7-4e94-9c1e-f04d589306c5" RefBaseClassPath="TE_SystemUnitClassLibrary/Tank">
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Product_Sink" ID="e261d530-305f-4311-b607-addf49c0178d" RefBaseClassPath="TE_SystemUnitClassLibrary/Tank">
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Sensor" ID="e6a8e521-d8de-4a10-971c-e88087a122e5">
+      <ExternalInterface Name="Digital_OUT" ID="7fb5fef9-ad48-4f51-a9db-5f93e4184de1" RefBaseClassPath="TE_InterfaceClassLibrary/Signal/Digital_OUT" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Sensor_Flow" ID="b56c5aea-f0d5-4d58-ab1a-38286a65134e" RefBaseClassPath="TE_SystemUnitClassLibrary/Sensor">
+      <Attribute Name="Measurement_Flow" AttributeDataType="xs:double" RefAttributeType="AttributeTypeLib/SensorAttribute/Measurement_Flow" Unit="m^3/h" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Sensor_Level" ID="211e82f2-7be7-4231-ae23-185ee5179edf" RefBaseClassPath="TE_SystemUnitClassLibrary/Sensor">
+      <Attribute Name="Measurement_Level" AttributeDataType="xs:string" RefAttributeType="AttributeTypeLib/SensorAttribute/Measurement_Level" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Sensor_Pressure" ID="7f516e52-6e92-41f3-8afd-812192b453dc" RefBaseClassPath="TE_SystemUnitClassLibrary/Sensor">
+      <Attribute Name="Measurement_Pressure" AttributeDataType="xs:double" RefAttributeType="AttributeTypeLib/SensorAttribute/Measurement_Pressure" Unit="kPa">
+        <Constraint Name="">
+          <OrdinalScaledType />
+        </Constraint>
+      </Attribute>
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Sensor_Temperature" ID="030244cc-240b-4621-ab19-a0bcad26e62d" RefBaseClassPath="TE_SystemUnitClassLibrary/Sensor">
+      <Attribute Name="Measurement_Temperature" AttributeDataType="xs:double" RefAttributeType="AttributeTypeLib/SensorAttribute/Measurement_Temperature" Unit="°C">
+        <Constraint Name="">
+          <OrdinalScaledType>
+            <RequiredMinValue>-273</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </Attribute>
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="RatioController" ID="11208b4d-53ce-4c0d-81d6-021137c01564">
+      <ExternalInterface Name="Digital_A_IN" ID="29e9dc8d-6260-4add-8592-5a0a8c7b6f25" RefBaseClassPath="TE_InterfaceClassLibrary/Signal/Digital_IN" />
+      <ExternalInterface Name="Digital_B_IN" ID="c63419d9-7f1a-41b7-90f9-a8534d58b595" RefBaseClassPath="TE_InterfaceClassLibrary/Signal/Digital_IN" />
+      <ExternalInterface Name="Digital_OUT" ID="51e7f39c-12f1-461a-808a-eda22a3d9579" RefBaseClassPath="TE_InterfaceClassLibrary/Signal/Digital_OUT" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Controller" ID="7595b1fe-9481-491a-a2f9-952662c12d03">
+      <ExternalInterface Name="Digital_IN" ID="1149fb71-db85-4657-8119-0648fded3fc0" RefBaseClassPath="TE_InterfaceClassLibrary/Signal/Digital_IN" />
+      <ExternalInterface Name="Digital_OUT" ID="9f6d1702-6ed9-45a8-9c16-12187706de70" RefBaseClassPath="TE_InterfaceClassLibrary/Signal/Digital_OUT" />
+    </SystemUnitClass>
+    <SystemUnitClass Name="Sensor_State" ID="29954c4c-a520-4c9b-8815-ad22fc2057b4" RefBaseClassPath="TE_SystemUnitClassLibrary/Sensor">
+      <Attribute Name="Measurement_State" AttributeDataType="xs:string" RefAttributeType="AttributeTypeLib/SensorAttribute/Measurement_State" />
+      <SupportedRoleClass RefRoleClassPath="AutomationMLBaseRoleClassLib/AutomationMLBaseRole/Resource" />
+    </SystemUnitClass>
+  </SystemUnitClassLib>
+  <AttributeTypeLib Name="AttributeTypeLib">
+    <Version>0</Version>
+    <AttributeType Name="ProductAttribute" AttributeDataType="xs:string">
+      <AttributeType Name="Chemical Concentration" AttributeDataType="xs:double" />
+      <AttributeType Name="Pressure" AttributeDataType="xs:double" Unit="kPa">
+        <Constraint Name="">
+          <OrdinalScaledType />
+        </Constraint>
+      </AttributeType>
+      <AttributeType Name="Temperature" AttributeDataType="xs:double" Unit="°C">
+        <Constraint Name="">
+          <OrdinalScaledType>
+            <RequiredMinValue>-273</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </AttributeType>
+    </AttributeType>
+    <AttributeType Name="SystemUnitAttribute" AttributeDataType="xs:string">
+      <AttributeType Name="Level" AttributeDataType="xs:float" Unit="%">
+        <Constraint Name="">
+          <OrdinalScaledType>
+            <RequiredMaxValue>100</RequiredMaxValue>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </AttributeType>
+      <AttributeType Name="Flow" AttributeDataType="xs:float" Unit="m^3/h" />
+      <AttributeType Name="State" AttributeDataType="xs:float" Unit="%">
+        <Constraint Name="">
+          <OrdinalScaledType>
+            <RequiredMaxValue>100</RequiredMaxValue>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </AttributeType>
+      <AttributeType Name="Power" AttributeDataType="xs:double" Unit="kW">
+        <Constraint Name="">
+          <OrdinalScaledType>
+            <RequiredMinValue>0</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </AttributeType>
+      <AttributeType Name="Rotational_Speed" AttributeDataType="xs:double" Unit="rpm" />
+    </AttributeType>
+    <AttributeType Name="SensorAttribute" AttributeDataType="xs:string">
+      <AttributeType Name="Measurement_Pressure" AttributeDataType="xs:double" Unit="kPa">
+        <DefaultValue></DefaultValue>
+        <Constraint Name="">
+          <OrdinalScaledType />
+        </Constraint>
+      </AttributeType>
+      <AttributeType Name="Measurement_Temperature" AttributeDataType="xs:double" Unit="°C">
+        <Constraint Name="">
+          <OrdinalScaledType>
+            <RequiredMinValue>-273</RequiredMinValue>
+          </OrdinalScaledType>
+        </Constraint>
+      </AttributeType>
+      <AttributeType Name="Measurement_Level" AttributeDataType="xs:string" />
+      <AttributeType Name="Measurement_Flow" AttributeDataType="xs:double" Unit="m^3/h" />
+      <AttributeType Name="Measurement_Concentration" AttributeDataType="xs:string">
+        <Attribute Name="Concentration_A" AttributeDataType="xs:double" Unit="%">
+          <Constraint Name="">
+            <OrdinalScaledType>
+              <RequiredMaxValue>100</RequiredMaxValue>
+            </OrdinalScaledType>
+          </Constraint>
+        </Attribute>
+        <Attribute Name="Concentration_B" AttributeDataType="xs:double" Unit="%">
+          <Constraint Name="">
+            <OrdinalScaledType>
+              <RequiredMaxValue>100</RequiredMaxValue>
+              <RequiredMinValue>0</RequiredMinValue>
+            </OrdinalScaledType>
+          </Constraint>
+        </Attribute>
+        <Attribute Name="Concentration_C" AttributeDataType="xs:double" Unit="%">
+          <Constraint Name="">
+            <OrdinalScaledType>
+              <RequiredMaxValue>100</RequiredMaxValue>
+              <RequiredMinValue>0</RequiredMinValue>
+            </OrdinalScaledType>
+          </Constraint>
+        </Attribute>
+        <Attribute Name="Concentration_D" AttributeDataType="xs:double" Unit="%">
+          <Constraint Name="">
+            <OrdinalScaledType>
+              <RequiredMaxValue>100</RequiredMaxValue>
+              <RequiredMinValue>0</RequiredMinValue>
+            </OrdinalScaledType>
+          </Constraint>
+        </Attribute>
+        <Attribute Name="Concentration_E" AttributeDataType="xs:double" Unit="%">
+          <Constraint Name="">
+            <OrdinalScaledType>
+              <RequiredMaxValue>100</RequiredMaxValue>
+              <RequiredMinValue>0</RequiredMinValue>
+            </OrdinalScaledType>
+          </Constraint>
+        </Attribute>
+        <Attribute Name="Concentration_F" AttributeDataType="xs:double" Unit="%">
+          <Constraint Name="">
+            <OrdinalScaledType>
+              <RequiredMaxValue>100</RequiredMaxValue>
+              <RequiredMinValue>0</RequiredMinValue>
+            </OrdinalScaledType>
+          </Constraint>
+        </Attribute>
+        <Attribute Name="Concentration_H" AttributeDataType="xs:double" Unit="%">
+          <Constraint Name="">
+            <OrdinalScaledType>
+              <RequiredMaxValue>100</RequiredMaxValue>
+              <RequiredMinValue>0</RequiredMinValue>
+            </OrdinalScaledType>
+          </Constraint>
+        </Attribute>
+      </AttributeType>
+      <AttributeType Name="Measurement_Rotational_Speed" AttributeDataType="xs:string" />
+      <AttributeType Name="Measurement_State" AttributeDataType="xs:string" />
+      <AttributeType Name="Measurement_Power" AttributeDataType="xs:string" />
+    </AttributeType>
+  </AttributeTypeLib>
+</CAEXFile>
